@@ -7,7 +7,7 @@ const Navbar = () => {
       
       <div className="flex justify-between items-center  max-w-screen-xl mx-auto">
         <p className="text-primary text-4xl text-white  text-stroke-sm pointer-events-none">
-        New content
+        Willy
         </p>
         <div className="gap-x-12 items-center hidden lg:flex">
           {navLinks?.map((link, index) => (

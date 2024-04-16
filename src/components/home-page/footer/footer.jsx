@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-screen-xl mx-auto flex flex-col gap-y-4">
         <div className="flex items-center justify-center py-12">
           <p className="text-primary sMob:text-[7rem] text-9xl text-center text-white w-max text-transparent pointer-events-none text-stroke">
-            PUMP 
+            PUMP WILLY
           </p>
         </div>
         <div className="flex justify-center w-full py-4 text-white">
