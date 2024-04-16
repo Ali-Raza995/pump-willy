@@ -33,7 +33,7 @@ const ContactUs = () => {
                 type="text"
                 className="font-semibold underline hover:text-gry transition-all ease-in-out duration-300 text-3xl md:text-5xl text-stroke-sm"
               >
-                contact@basedwilly.com
+                contact@pumpwilly.com
               </p>
             </a>
           </div>
