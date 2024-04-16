@@ -21,8 +21,7 @@ git clone https://github.com/Impleko/pump-willy.git
 
 ### Opening the Project in VS Code
 
-1. Navigate to the project directory in your terminal or command prompt.
-2. Run the following command to open the project in VS Code:
+1. Navigate to the project directory and open project in VS Code
 
 ### Installing Node Modules
 
