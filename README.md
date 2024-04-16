@@ -1,9 +1,5 @@
 # Project Name
 
-## Introduction
-
-A brief description of your project, its purpose, and its main features.
-
 ## Getting Started
 
 ### Prerequisites
