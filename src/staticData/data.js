@@ -24,61 +24,8 @@ export const buyButtons = [
 
 export const buyPlans = [
   {
-    imagePath: "/assets/images/gate.io.png",
+    imagePath: "/assets/images/pink-sale.png",
     planUrl: "https://www.gate.io/trade/BRETT_USDT",
-  },
-  {
-    imagePath: "/assets/images/dex.png",
-    planUrl:
-      "https://www.okx.com/web3/dex-swap#inputChain=8453&inputCurrency=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee&outputChain=8453&outputCurrency=0x532f27101965dd16442E59d40670FaF5eBB142E4",
-  },
-  {
-    imagePath: "/assets/images/bingX.png",
-    planUrl: "https://bingx.com/en-gb/spot/BRETTUSDT/",
-  },
-  {
-    imagePath: "/assets/images/bitget.png",
-    planUrl: "https://www.bitget.com/spot/BRETTUSDT",
-  },
-  {
-    imagePath: "/assets/images/bitmart.png",
-    planUrl: "https://www.bitmart.com/trade/en-US?symbol=BRETT_USDT",
-  },
-  {
-    imagePath: "/assets/images/xt.png",
-    planUrl: "https://www.xt.com/en/trade/brett_usdt",
-  },
-  {
-    imagePath: "/assets/images/bitunix.png",
-    planUrl: "https://www.bitunix.com/spot-trade/BRETTUSDT",
-  },
-  {
-    imagePath: "/assets/images/ascendEx.png",
-    planUrl: "https://ascendex.com/en/cashtrade-spottrading/usdt/brett",
-  },
-  {
-    imagePath: "/assets/images/coinEx.png",
-    planUrl: "https://www.coinex.com/en/exchange/BRETT-USDT",
-  },
-  {
-    imagePath: "/assets/images/poloniex.png",
-    planUrl: "https://poloniex.com/trade/BRETT_USDT?type=spot",
-  },
-  {
-    imagePath: "/assets/images/bittrue.png",
-    planUrl: "https://www.bitrue.com/trade/brett_usdt",
-  },
-  {
-    imagePath: "/assets/images/hotcoin.png",
-    planUrl: "https://www.hotcoin.com/trade/brett_usdt",
-  },
-  {
-    imagePath: "/assets/images/bitkan.png",
-    planUrl: "https://bitkan.com/trade/BRETT-USDT",
-  },
-  {
-    imagePath: "/assets/images/lbank.png",
-    planUrl: "https://www.lbank.com/trade/brett_usdt",
   },
 ];
 export const utilitiesData = [
