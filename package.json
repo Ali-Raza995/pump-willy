@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "PORT=3006 next dev",
     "build": "next build",
-    "start": "next start",
     "lint": "next lint",
     "export": "npm run build && next export"
   },

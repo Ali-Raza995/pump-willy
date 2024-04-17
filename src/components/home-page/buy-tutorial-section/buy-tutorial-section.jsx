@@ -8,8 +8,8 @@ const BuyTutorialSection = () => {
         <div className="max-w-screen-xl mx-auto p-4 flex flex-col gap-y-8 items-center justify-center relative z-20">
           <div className="flex flex-col items-center font-bold gap-y-4 translate-y-28 z-50">
             <div className="flex flex-col items-center" data-aos="fade-down">
-              <p className="tracking-[0.5rem]">PEPE'S</p>
-              <p className="tracking-[0.5rem]">BESTFRIEND</p>
+              <p className="tracking-[0.5rem]">$WILLY</p>
+              <p className="tracking-[0.5rem]">JUST PUMP IT</p>
             </div>
             <a
               href="#"
@@ -69,7 +69,7 @@ const BuyTutorialSection = () => {
               />
             </video>
             <p className="text-center text-xl text-white">
-              How to buy on Base Mainnet
+              How to buy on Solana Mainnet
             </p>
           </div>
 

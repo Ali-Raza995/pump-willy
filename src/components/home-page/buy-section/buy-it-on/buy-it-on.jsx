@@ -6,7 +6,7 @@ const BuyItOn = () => {
     <div className="py-[6rem] mt-[4rem] w-full h-auto p-10 relative z-20">
       <div className="max-w-7xl mx-auto p-5 xl:p-20 rounded-xl bg-[#0244a5b3] backdrop-blur">
         <div className="flex flex-col justify-center items-center text-6xl lg:text-9xl leading-[3rem] lg:leading-[5rem] mb-20 text-white">
-          <p>BUY IT ON</p>
+          <p>PRESALE IS LIVE</p>
         </div>
 
         <div className="max-w-[350px] w-full mx-auto bg-[#DBE5EE] rounded-[10px]">

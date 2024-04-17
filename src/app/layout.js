@@ -6,8 +6,8 @@ import "./animation.styles.css"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "BASED BRETT",
-  description: "The Base Chain and BRETT represent an exciting opportunity for the future of DeFi and blockchain technology.",
+  title: "Willy",
+  description: "The Solana Chain and BRETT represent an exciting opportunity for the future of DeFi and blockchain technology.",
 };
 
 

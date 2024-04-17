@@ -39,8 +39,8 @@ const AboutBrett = () => {
             <p className="text-2xl text-white mt-4">
               WILLY is the legendary character from Matt Furie’s Boys' club
               comic. He is a dancer and loves video games. Now he is living on
-              the BASE blockchain as a Fan tribute. He has become blue mascot of
-              the blue chain, BASE.
+              the Solana blockchain as a Fan tribute. He has become blue mascot of
+              the blue chain, Solana.
             </p>
           </div>
           <video className="rounded-xl drop-shadow-lg" controls>
