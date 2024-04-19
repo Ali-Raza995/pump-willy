@@ -47,7 +47,7 @@ const AboutBrett = () => {
             </p>
           </div>
           <video className="rounded-xl drop-shadow-lg" controls>
-            <source src="/assets/videos/Brett.mp4" type="video/mp4" />
+            <source src="/assets/videos/about-willy-pump.mp4" type="video/mp4" />
           </video>
           <p className="text-2xl text-white">Video Courtesy: Feels Good Man</p>
         </div>
