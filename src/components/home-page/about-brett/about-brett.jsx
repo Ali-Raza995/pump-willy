@@ -14,7 +14,7 @@ const AboutBrett = () => {
         data-aos-delay="800"
       >
         <p className="text-primary text-4xl lg:text-6xl leading-[2rem] lg:leading-[5rem] bg-gradient-to-r text-white w-max text-transparent pointer-events-none">
-        WILLY
+          WILLY
         </p>
         <div className="w-full h-[2px] bg-gradient-to-r from-lyllw to-yllw hidden lg:block"></div>
         <p className="tracking-[0.5rem] font-bold w-max whitespace-nowrap text-white">
@@ -34,13 +34,16 @@ const AboutBrett = () => {
         </div>
 
         <div className="flex flex-col justify-center gap-y-4 w-full lg:w-1/2 text-center lg:text-left">
-          <div data-aos="fade-right"   data-aos-delay="1000">
+          <div data-aos="fade-right" data-aos-delay="1000">
             <h1 className="text-stroke-sm text-5xl">Who's WILLY?!</h1>
             <p className="text-2xl text-white mt-4">
-              WILLY is the legendary character from Matt Furie’s Boys' club
-              comic. He is a dancer and loves video games. Now he is living on
-              the Solana blockchain as a Fan tribute. He has become blue mascot of
-              the blue chain, Solana.
+              $WILLY is the first token dedicated to turning degen HODLers into
+              Whales. Through marketing, strategic partnerships and with some
+              community shilling, we aim to #PUMPWILLY into the biggest thing in
+              crypto BUY $WILLY, HODL $WILLY, #PUMPWILLY
+              <br /> <br />
+              Join the TG, follow our socials and help $WILLY blow up all over
+              crypto
             </p>
           </div>
           <video className="rounded-xl drop-shadow-lg" controls>
