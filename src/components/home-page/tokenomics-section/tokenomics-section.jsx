@@ -1,4 +1,5 @@
 import React from "react";
+import TokonomicsChart from "./tokonomics-chart";
 
 const TokenomicsSection = () => {
   return (
@@ -11,16 +12,13 @@ const TokenomicsSection = () => {
     >
       <div className="max-w-screen-xl mx-auto p-4 ">
         <div className="bg-gradient-to-t from-yllw/50 to-lyllw/50  backdrop-blur-lg  gap-y-8 items-center justify-center w-full p-12 rounded-2xl border-solid border-[1px] border-lyllw/70">
-          <div className="flex flex-col md:flex-row">
+          <div className="flex flex-col lg:flex-row">
             <div
               className="flex flex-col items-center justify-center "
               data-aos="zoom-in"
               data-aos-delay="900"
             >
-              <img
-                src="/assets/images/tokenomics-contract.png"
-                alt="tokenomics-section"
-              />
+              <TokonomicsChart />
             </div>
             <div
               className="items-center gap-y-4 w-full lg:w-1/2 text-center "
@@ -31,9 +29,11 @@ const TokenomicsSection = () => {
                 TOKENOMICS
               </h1>
               <div className="text-center text-white">
-                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">85% LP</p>
-                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">10% TREASURY</p>
-                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">5% CEX WALLET</p>
+                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">55% Presale</p>
+                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">5% CEX </p>
+                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">20% LP</p>
+                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">10% Team + Advisors</p>
+                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">10% Marketing + Partnership</p>
               </div>
             </div>
           </div>

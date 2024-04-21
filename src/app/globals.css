@@ -65,6 +65,15 @@ body {
 }
 
 
+.apexcharts-legend {
+  display: none !important;
+}
+
+#chart {
+  width: 100%;
+  max-width: 40000px;
+  margin: 0 auto; 
+ }
 
 
 

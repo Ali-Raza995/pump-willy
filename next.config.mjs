@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-    distDir: "build",
-  };
+  reactStrictMode: true,
+  output: 'export',
+  distDir: 'dist',
+  trailingSlash: true,
+  assetPrefix: '.',
+}
 
 export default nextConfig;

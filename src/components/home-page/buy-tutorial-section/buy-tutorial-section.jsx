@@ -57,7 +57,7 @@ const BuyTutorialSection = () => {
           WILLY
           </p>
         </div>
-        <div className="flex p-10 gap-x-3 flex-col md:flex-row gap-y-7">
+        {/* <div className="flex p-10 gap-x-3 flex-col md:flex-row gap-y-7">
           <div className="w-full">
             <video
               className="rounded-xl drop-shadow-lg w-full h-[80%]"
@@ -87,8 +87,8 @@ const BuyTutorialSection = () => {
               How to buy on CoinBase
             </p>
           </div>
-        </div>
-        <div className="flex gap-x-4">
+        </div> */}
+        <div className="flex gap-x-4 mt-4">
           <a
             href="https://kyberswap.com/swap/base/eth-to-brett"
             target="_blank"

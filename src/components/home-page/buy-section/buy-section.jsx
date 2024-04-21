@@ -4,12 +4,11 @@ import BuyItOn from "./buy-it-on/buy-it-on";
 
 const BuySection = () => {
   const [isCopied, setIsCopied] = useState(false);
-  const textToCopy = "0x532f27101965dd16442E59d40670FaF5eBB142E4";
+  const textToCopy = "7JdM4pgPSDSdgFy486NbrPi4u8oCuvtmj8ByUvojr1Nq";
 
   const copyToClipboard = async () => {
     try {
       await navigator.clipboard.writeText(textToCopy);
-      console.log(`Copied: ${textToCopy}`);
       setIsCopied(true);
       setTimeout(() => setIsCopied(false), 3000);
     } catch (err) {

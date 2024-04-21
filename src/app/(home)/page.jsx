@@ -14,7 +14,7 @@ const Page = () => {
   }, []);
   return (
     <div>
-      <img className="fixed bottom-0 left-0 object-cover w-full h-full z-0 pointer-events-none" src="/assets/images/willy-pump-background.jpg"></img>
+      <img className="fixed bottom-0 left-0 object-cover w-full h-full z-0 pointer-events-none" src="/assets/images/pump-willy-background.jpg"></img>
       <HomePage />
     </div>
   )
