@@ -1,13 +1,16 @@
+"use client"
 import React, { useState } from 'react';
-import ReactApexChart from 'react-apexcharts';
+import dynamic from 'next/dynamic';
+
+// Dynamically import ReactApexChart with SSR disabled
+const ReactApexChart = dynamic(() => import('react-apexcharts'), { ssr: false });
 
 const TokonomicsChart = () => {
  const [series, setSeries] = useState([5, 20, 10, 10, 55]);
 
- const windowLength = window.innerWidth
  const [options, setOptions] = useState({
     chart: {
-      width: '100%', // Set the chart width to 100% to make it responsive
+      width: '100%',
       type: 'pie',
     },
     labels: ['CEX', 'LP', 'Team + Advisors', 'Marketing + Partnership', 'Presale'],
@@ -22,17 +25,15 @@ const TokonomicsChart = () => {
         }
       }
     }],
-    dataLabels: {
-      style: {
-        fontSize: windowLength > 1100 ? '24px' : '12px', // Adjust the font size here
-      }
-    }
  });
 
  return (
     <div>
-      <div id="chart" >
-        <ReactApexChart options={options} series={series} type="pie"  className='w-[320px] sm:w-[520px]'/>
+      <div id="chart">
+        <div className='w-[540px] h-[440px] lMob:w-[320px] text-[100px]'>
+          
+        <ReactApexChart options={options} series={series} type="pie"  width="100%" height="100%"/>
+        </div>
       </div>
       <div id="html-dist"></div>
     </div>
@@ -40,3 +41,4 @@ const TokonomicsChart = () => {
 };
 
 export default TokonomicsChart;
+

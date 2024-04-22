@@ -17,8 +17,11 @@ const TokenomicsSection = () => {
               className="flex flex-col items-center justify-center "
               data-aos="zoom-in"
               data-aos-delay="900"
+
+
             >
-              <TokonomicsChart />
+
+                <TokonomicsChart />
             </div>
             <div
               className="items-center gap-y-4 w-full lg:w-1/2 text-center "

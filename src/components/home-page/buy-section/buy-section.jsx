@@ -38,7 +38,7 @@ const BuySection = () => {
         </div>
         <div className=" flex flex-col items-center md:flex-row gap-x-4 gap-y-5 ">
           {buyButtons?.map((btnData, index) => (
-            <a href={btnData?.btnUrl}>
+            <a href={btnData?.btnUrl} key={btnData?.btnUrl}>
               <button className="bg-white btn-text font-bold text-lyllw uppercase text-xl px-4 py-3 border-solid border-[1px] border-lyllw/70 rounded-full bg-gradient-to-tr from-yllw/10 to-lyllw/10 flex items-center gap-x-3 items- hover:scale-[1.05] hover:from-yllw/20 hover:to-lyllw/20 transition-all ease-in-out duration-300">
                 {btnData?.btnName}
                 {index !== 2 && (
