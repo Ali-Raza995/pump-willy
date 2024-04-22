@@ -40,7 +40,7 @@ const IntroSection = () => {
               data-aos-duration="1000"
               data-aos-delay="500"
             >
-              PEPE’S best friend on Solana
+              The Solana whale that pumps!
             </p>
           </div>
         </div>
