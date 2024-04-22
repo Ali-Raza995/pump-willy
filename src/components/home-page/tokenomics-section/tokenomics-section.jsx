@@ -1,5 +1,4 @@
 import React from "react";
-import TokonomicsChart from "./tokonomics-chart";
 
 const TokenomicsSection = () => {
   return (
@@ -8,7 +7,7 @@ const TokenomicsSection = () => {
       id="tokenomics"
       data-aos="fade-up"
       data-aos-duration="1000"
-      data-aos-delay="800" 
+      data-aos-delay="800"
     >
       <div className="max-w-screen-xl mx-auto p-4 ">
         <div className="bg-gradient-to-t from-yllw/50 to-lyllw/50  backdrop-blur-lg  gap-y-8 items-center justify-center w-full p-12 rounded-2xl border-solid border-[1px] border-lyllw/70">
@@ -17,11 +16,11 @@ const TokenomicsSection = () => {
               className="flex flex-col items-center justify-center "
               data-aos="zoom-in"
               data-aos-delay="900"
-
-
             >
-
-                <TokonomicsChart />
+              <img
+                src="/assets/images/tokonomics-section.png"
+                alt="tokenomics-section"
+              />
             </div>
             <div
               className="items-center gap-y-4 w-full lg:w-1/2 text-center "
@@ -32,11 +31,21 @@ const TokenomicsSection = () => {
                 TOKENOMICS
               </h1>
               <div className="text-center text-white">
-                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">55% Presale</p>
-                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">5% CEX </p>
-                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">20% LP</p>
-                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">10% Team + Advisors</p>
-                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">10% Marketing + Partnership</p>
+                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">
+                  55% Presale
+                </p>
+                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">
+                  5% CEX{" "}
+                </p>
+                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">
+                  20% LP
+                </p>
+                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">
+                  10% Team + Advisors
+                </p>
+                <p className="mt-5 text-5xl md:text-7xl sMob:text-[2rem]">
+                  10% Marketing + Partnership
+                </p>
               </div>
             </div>
           </div>
@@ -47,7 +56,9 @@ const TokenomicsSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h1 className="sMob:text-[2rem] sMob:px-2">CONTRACT RENOUNCED</h1>
+                <h1 className="sMob:text-[2rem] sMob:px-2">
+                  CONTRACT RENOUNCED
+                </h1>
               </a>
             </div>
             <div className="w-full bg-lyllw/70 rounded-3xl drop-shadow-lg duration-300 transition-all ease-in-out hover:scale-110 hover:bg-lyllw/100">
@@ -56,7 +67,9 @@ const TokenomicsSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h1 className="sMob:text-[2rem] sMob:px-2">LP LOCKED 365 DAYS</h1>
+                <h1 className="sMob:text-[2rem] sMob:px-2">
+                  LP LOCKED 365 DAYS
+                </h1>
               </a>
             </div>
           </div>
