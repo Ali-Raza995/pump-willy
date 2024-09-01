@@ -25,7 +25,7 @@ const ContactUs = () => {
             data-aos-delay="500"
           >
             <a
-              href="mailto: contact@basedbrett.com"
+              href="mailto: contact@pumpwilly.com"
               target="_blank"
               rel="noopener noreferrer"
             >
